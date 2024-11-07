@@ -52,3 +52,9 @@
 [11:51:04] [Server thread/INFO]: Done (20.789s)! For help, type "help"
 [11:51:04] [Server thread/INFO]: jorge[/[0:0:0:0:0:0:0:1%0]:56752] logged in with entity id 173 at (-141.5, 80.0, -29.5)
 [11:51:04] [Server thread/INFO]: jorge joined the game
+[11:51:34] [Server thread/INFO]: jorge lost connection: Timed out
+[11:51:34] [Server thread/INFO]: jorge left the game
+[11:52:01] [Server thread/INFO]: jorge[/[0:0:0:0:0:0:0:1%0]:55940] logged in with entity id 547 at (-141.5, 80.0, -29.5)
+[11:52:01] [Server thread/INFO]: jorge joined the game
+[11:53:40] [Server thread/INFO]: jorge lost connection: Disconnected
+[11:53:40] [Server thread/INFO]: jorge left the game
