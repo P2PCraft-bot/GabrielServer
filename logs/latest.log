@@ -1,18 +1,54 @@
-[16:57:49] [ServerMain/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
-	at java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?]
-	at java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:422) ~[?:?]
-	at java.nio.file.Files.newInputStream(Files.java:159) ~[?:?]
-	at ahi.b(SourceFile:62) ~[server-1.20.1.jar:?]
-	at ahf.a(SourceFile:137) ~[server-1.20.1.jar:?]
-	at ahg.<init>(SourceFile:12) ~[server-1.20.1.jar:?]
-	at net.minecraft.server.Main.main(SourceFile:115) ~[server-1.20.1.jar:?]
-	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
-[16:57:49] [ServerMain/WARN]: Failed to load eula.txt
-[16:57:49] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[11:50:40] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:50:42] [ServerMain/INFO]: Loaded 7 recipes
+[11:50:42] [ServerMain/INFO]: Loaded 1271 advancements
+[11:50:43] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[11:50:43] [Server thread/INFO]: Loading properties
+[11:50:43] [Server thread/INFO]: Default game type: CREATIVE
+[11:50:43] [Server thread/INFO]: Generating keypair
+[11:50:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:50:43] [Server thread/INFO]: Using epoll channel type
+[11:50:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:50:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:50:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:50:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:50:43] [Server thread/INFO]: Preparing level "world"
+[11:50:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:50:47] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[11:50:47] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[11:50:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[11:50:48] [Worker-Main-14/INFO]: Preparing spawn area: 0%
+[11:50:48] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[11:50:49] [Worker-Main-14/INFO]: Preparing spawn area: 1%
+[11:50:49] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[11:50:50] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[11:50:50] [Worker-Main-9/INFO]: Preparing spawn area: 3%
+[11:50:51] [Worker-Main-10/INFO]: Preparing spawn area: 5%
+[11:50:51] [Worker-Main-7/INFO]: Preparing spawn area: 7%
+[11:50:52] [Worker-Main-9/INFO]: Preparing spawn area: 10%
+[11:50:52] [Worker-Main-9/INFO]: Preparing spawn area: 11%
+[11:50:53] [Worker-Main-13/INFO]: Preparing spawn area: 14%
+[11:50:53] [Worker-Main-12/INFO]: Preparing spawn area: 18%
+[11:50:54] [Worker-Main-7/INFO]: Preparing spawn area: 20%
+[11:50:54] [Worker-Main-5/INFO]: Preparing spawn area: 24%
+[11:50:55] [Worker-Main-6/INFO]: Preparing spawn area: 27%
+[11:50:55] [Worker-Main-11/INFO]: Preparing spawn area: 31%
+[11:50:56] [Worker-Main-5/INFO]: Preparing spawn area: 34%
+[11:50:56] [Worker-Main-4/INFO]: Preparing spawn area: 38%
+[11:50:57] [Worker-Main-8/INFO]: Preparing spawn area: 43%
+[11:50:57] [Worker-Main-14/INFO]: Preparing spawn area: 45%
+[11:50:58] [Worker-Main-2/INFO]: Preparing spawn area: 48%
+[11:50:58] [Worker-Main-3/INFO]: Preparing spawn area: 53%
+[11:50:59] [Worker-Main-7/INFO]: Preparing spawn area: 57%
+[11:50:59] [Worker-Main-2/INFO]: Preparing spawn area: 59%
+[11:51:00] [Worker-Main-10/INFO]: Preparing spawn area: 65%
+[11:51:00] [Worker-Main-4/INFO]: Preparing spawn area: 70%
+[11:51:01] [Worker-Main-10/INFO]: Preparing spawn area: 73%
+[11:51:01] [Worker-Main-11/INFO]: Preparing spawn area: 77%
+[11:51:02] [Worker-Main-12/INFO]: Preparing spawn area: 83%
+[11:51:02] [Worker-Main-11/INFO]: Preparing spawn area: 86%
+[11:51:03] [Worker-Main-13/INFO]: Preparing spawn area: 90%
+[11:51:03] [Worker-Main-15/INFO]: Preparing spawn area: 96%
+[11:51:04] [Server thread/INFO]: Time elapsed: 17286 ms
+[11:51:04] [Server thread/INFO]: Done (20.789s)! For help, type "help"
+[11:51:04] [Server thread/INFO]: jorge[/[0:0:0:0:0:0:0:1%0]:56752] logged in with entity id 173 at (-141.5, 80.0, -29.5)
+[11:51:04] [Server thread/INFO]: jorge joined the game
